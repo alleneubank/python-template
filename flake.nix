@@ -2,7 +2,10 @@
   description = "Python project template";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
+    # Latest stable channel (fully cached for darwin) for the generic dev tools.
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
+    # Astral toolchain (uv/ruff/ty) is deliberately tracked from unstable to stay
+    # current; these are small Rust binaries cached on unstable, not a build trap.
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
 
