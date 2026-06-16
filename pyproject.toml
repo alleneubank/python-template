@@ -6,7 +6,7 @@ requires-python = ">=3.13"
 license = "MIT"
 
 [dependency-groups]
-dev = ["pytest>=8", "ruff>=0.15", "ty>=0.0.24", "core", "utils", "example"]
+dev = ["pytest>=9.0.3", "ruff>=0.15", "ty>=0.0.24", "core", "utils", "example"]
 
 [tool.pytest.ini_options]
 testpaths = ["packages/core/tests", "packages/utils/tests"]
