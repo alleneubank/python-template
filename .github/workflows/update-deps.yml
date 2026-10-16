@@ -15,18 +15,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: astral-sh/setup-uv@v6
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
+        with:
+          version: '2026.10.4'
 
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - name: Update mise toolchain pins and lockfile
+        run: mise upgrade --bump
 
       - name: Update Python dependencies
         run: |
           uv lock --upgrade
           uv sync
-
-      - name: Update Nix flake inputs
-        run: nix flake update
 
       - name: Verify
         run: |
@@ -44,5 +43,5 @@ jobs:
           body: |
             Automated weekly dependency updates:
             - `uv lock --upgrade`
-            - `nix flake update`
+            - `mise upgrade --bump` (toolchain pins and `mise.lock`)
           delete-branch: true
