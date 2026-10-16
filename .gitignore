@@ -21,9 +21,7 @@ venv/
 .coverage
 htmlcov/
 
-# Nix
-result
-result-*
+# direnv
 .direnv/
 
 # Editors
