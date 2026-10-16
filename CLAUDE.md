@@ -5,7 +5,7 @@ Python monorepo template using uv workspaces with the Astral toolchain (uv, ruff
 ## Quick Reference
 
 ```bash
-nix develop              # enter dev shell (provides uv, ruff, ty, lefthook)
+mise install --locked    # install pinned tools (uv, ruff, ty, lefthook, jq, ripgrep)
 uv sync                  # install all workspace dependencies
 uv run pytest            # run all tests
 uv run ruff check .      # lint
@@ -45,7 +45,7 @@ Dependencies between workspace members use `[tool.uv.sources]` with `workspace =
 | ty | Type checker (Astral, Rust-based) |
 | pytest | Test runner |
 | lefthook | Git hooks (pre-commit, pre-push) |
-| nix flakes | Reproducible dev environment |
+| mise | Pinned, checksum-locked dev tools (`mise.toml`, `mise.lock`) |
 
 ## Conventions
 
