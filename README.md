@@ -9,7 +9,7 @@ Python monorepo template with the [Astral](https://astral.sh/) toolchain.
 - **[ty](https://docs.astral.sh/ty/)** — type checker
 - **[pytest](https://docs.pytest.org/)** — test runner
 - **[lefthook](https://github.com/evilmartians/lefthook)** — git hooks
-- **[Nix flakes](https://nixos.wiki/wiki/Flakes)** — reproducible dev environment
+- **[mise](https://mise.jdx.dev/)** — pinned, checksum-locked dev tools (`mise.toml`, `mise.lock`)
 
 ## Usage
 
@@ -20,7 +20,7 @@ Click **"Use this template"** on GitHub, then:
 ```bash
 git clone <your-new-repo>
 cd <your-new-repo>
-nix develop          # or install uv, ruff, ty, lefthook manually
+mise install --locked   # uv, ruff, ty, lefthook, jq, ripgrep
 uv run python scripts/setup.py
 uv sync
 ```
@@ -30,17 +30,21 @@ uv sync
 ```bash
 gh repo create my-project --template 0xbigboss/python-template --public --clone
 cd my-project
-nix develop
+mise install --locked
 uv run python scripts/setup.py
 uv sync
 ```
 
 See [SETUP.md](SETUP.md) for details.
 
+Tools come from [mise](https://mise.jdx.dev/): `mise.toml` pins exact versions and `mise.lock` pins
+per-platform checksums. After cloning, run `mise trust` once. Tools are on `PATH` when mise is activated
+in your shell or through direnv (`.envrc` runs `use mise`); otherwise prefix commands with `mise exec --`.
+
 ## Development
 
 ```bash
-nix develop                      # enter dev shell
+mise install --locked            # install pinned tools (direnv activates them via .envrc)
 uv sync                          # install dependencies
 uv run pytest                    # run tests
 uv run ruff check .              # lint
