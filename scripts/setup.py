@@ -9,7 +9,7 @@ SKIP_DIRS = {".git", ".venv", "__pycache__", ".direnv", "node_modules"}
 SKIP_FILES = {"setup.py"}
 
 # Extensions to process
-TEXT_EXTENSIONS = {".py", ".toml", ".md", ".yml", ".yaml", ".json", ".nix"}
+TEXT_EXTENSIONS = {".py", ".toml", ".md", ".yml", ".yaml", ".json"}
 
 ROOT = Path(__file__).resolve().parent.parent
 
