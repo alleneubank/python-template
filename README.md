@@ -28,7 +28,7 @@ uv sync
 ### With gh CLI
 
 ```bash
-gh repo create my-project --template 0xbigboss/python-template --public --clone
+gh repo create my-project --template alleneubank/python-template --public --clone
 cd my-project
 mise install --locked
 uv run python scripts/setup.py
