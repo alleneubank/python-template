@@ -28,90 +28,90 @@ url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15
 url_api = "https://api.github.com/repos/BurntSushi/ripgrep/releases/assets/478119585"
 
 [[tools."aqua:astral-sh/ruff"]]
-version = "0.17.0"
+version = "0.17.3"
 backend = "aqua:astral-sh/ruff"
-specifiers = ["0.17.0"]
+specifiers = ["0.17.3"]
 
 [tools."aqua:astral-sh/ruff"."platforms.linux-arm64"]
-checksum = "sha256:294e181ba6ccb0c2ffd778580e3c42b19f038bdbcb844f39fd9a6a26e8148804"
-url = "https://github.com/astral-sh/ruff/releases/download/0.17.0/ruff-aarch64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/625999236"
+checksum = "sha256:3f4639152c0e42bb5938e6c23d53d527a38f3133e000102934518f90529fa299"
+url = "https://github.com/astral-sh/ruff/releases/download/0.17.3/ruff-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/679956412"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/ruff"."platforms.linux-x64"]
-checksum = "sha256:c94fc1dc71f054d06d9f1149442dcb471516aa2b7d4b7e8124e05d082d4c91d3"
-url = "https://github.com/astral-sh/ruff/releases/download/0.17.0/ruff-x86_64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/625999382"
+checksum = "sha256:2b0890f5a55900af741f133918c2656919bbf18c2ab7741b4ca8403a90e647a9"
+url = "https://github.com/astral-sh/ruff/releases/download/0.17.3/ruff-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/679956535"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/ruff"."platforms.macos-arm64"]
-checksum = "sha256:59afe64c227e5f9a39d85c4d6be6e2d8e9a85c55f0887baad9c9e2f775a1c119"
-url = "https://github.com/astral-sh/ruff/releases/download/0.17.0/ruff-aarch64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/625999213"
+checksum = "sha256:118f7121aa838785672bf612487f755a89108bb5f44e0f3df96c5967a72614f9"
+url = "https://github.com/astral-sh/ruff/releases/download/0.17.3/ruff-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/679956403"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/ruff"."platforms.macos-x64"]
-checksum = "sha256:1b6a10f57aa06f0de2d90666878dd875836e3e2d04f61868fa175a74149fb2ad"
-url = "https://github.com/astral-sh/ruff/releases/download/0.17.0/ruff-x86_64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/625999365"
+checksum = "sha256:17f95b1bee24d70de62ffe5beec7f71bb541c7e3d147a1c3d84f7cd6525f6fdf"
+url = "https://github.com/astral-sh/ruff/releases/download/0.17.3/ruff-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ruff/releases/assets/679956517"
 provenance = "github-attestations"
 
 [[tools."aqua:astral-sh/ty"]]
-version = "0.0.88"
+version = "0.0.95"
 backend = "aqua:astral-sh/ty"
-specifiers = ["0.0.88"]
+specifiers = ["0.0.95"]
 
 [tools."aqua:astral-sh/ty"."platforms.linux-arm64"]
-checksum = "sha256:22de1540df66b99796686a435ff4370785388649d8d5a389e30e05a2c023531d"
-url = "https://github.com/astral-sh/ty/releases/download/0.0.88/ty-aarch64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/643397480"
+checksum = "sha256:bdf63065cdc0cd27ed0e3412251548aa1c957d186052b82ace08c95a087786e5"
+url = "https://github.com/astral-sh/ty/releases/download/0.0.95/ty-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/689647603"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/ty"."platforms.linux-x64"]
-checksum = "sha256:acbfa2b23e93d75eb47a2b764c2ad80621d9b6385f1aa5213cef05d734c3ad65"
-url = "https://github.com/astral-sh/ty/releases/download/0.0.88/ty-x86_64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/643397657"
+checksum = "sha256:3f00a15c1e4234113db8764a06082ac2c00ddf2ecae66d18430ce767e40b4e17"
+url = "https://github.com/astral-sh/ty/releases/download/0.0.95/ty-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/689647835"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/ty"."platforms.macos-arm64"]
-checksum = "sha256:6d1c7dc1385f7e42c355e6bc32d5e8bf68f54efef3f64dfb593105be1fcb1e06"
-url = "https://github.com/astral-sh/ty/releases/download/0.0.88/ty-aarch64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/643397441"
+checksum = "sha256:379d341e8fb12d949e92fa7142f864cde835be5b2c1378d24c264a928c551857"
+url = "https://github.com/astral-sh/ty/releases/download/0.0.95/ty-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/689647546"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/ty"."platforms.macos-x64"]
-checksum = "sha256:150acd6291793e95e031e5b466ba642c18006eb77df1de4e4f3407ce8454f3c3"
-url = "https://github.com/astral-sh/ty/releases/download/0.0.88/ty-x86_64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/643397614"
+checksum = "sha256:adea6bebd14fff5a860e5df9f8b643983decde7997c44e464e3780cc9ae40f46"
+url = "https://github.com/astral-sh/ty/releases/download/0.0.95/ty-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/ty/releases/assets/689647798"
 provenance = "github-attestations"
 
 [[tools."aqua:astral-sh/uv"]]
-version = "0.13.1"
+version = "0.13.6"
 backend = "aqua:astral-sh/uv"
-specifiers = ["0.13.1"]
+specifiers = ["0.13.6"]
 
 [tools."aqua:astral-sh/uv"."platforms.linux-arm64"]
-checksum = "sha256:9041c73c99fdc5892cf128140beb354eca9231d502068cc36e6cb53a8e59ad14"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-aarch64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639312990"
+checksum = "sha256:229e194255c7958d86d56e8790d969a6f74736592133f0dfd0076f754c642c1d"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.6/uv-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/679980412"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.linux-x64"]
-checksum = "sha256:eadd9d27c134ab5ac1ffd4473b97a741407f3ea238288f03121fc4deddf90220"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639313223"
+checksum = "sha256:f29c3e94ffabd7e6f3ba521dba169a9b7ec12100bf3257087f0f24f6123f3645"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.6/uv-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/679980644"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.macos-arm64"]
-checksum = "sha256:cfe454573412ff7380d15fc7dae5997ab53ffce72fce0a78e91ddbc84001acd2"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-aarch64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639312976"
+checksum = "sha256:60fbd5c8a1ed681845eea28d9d622fcde03c51e91a43465b64a1e17db1ed3472"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.6/uv-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/679980393"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.macos-x64"]
-checksum = "sha256:bb7b805bdcf3d0bc8c74ceb94569e6b3e8aa35bd492acdbb9d46bf46d9d4ff6b"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639313196"
+checksum = "sha256:63ba17fdda55ad1a230d4b37fc6017ffa10c23688c83818bd3bfdf914c652a02"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.6/uv-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/679980609"
 provenance = "github-attestations"
 
 [[tools."aqua:evilmartians/lefthook"]]
